@@ -1,0 +1,229 @@
+/*
+	Theme Name: Women For Code
+	Theme URI: https://nakayobenin.com
+	Description: All women can code
+	Version: 1.4.3
+	Author: Omega Numeric
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+body{
+    /*background: url("img/background.jpg");*/
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+a:hover{ text-decoration: none !important;
+}
+.navbar{
+    border: none !important;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #333333 !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.section{
+    padding: 100px 0;
+}
+.wfc-button{
+
+    font-weight: 900;
+    font-size: 14px;
+    padding: 15px 40px;
+    display: inline-block;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px #8e8e8e;
+}
+.formation-wrapper{
+    border:1px solid #DDD;
+    border-radius: 10px;
+
+    margin: 20px;
+}
+.formation-titile{
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.formation-excerpt{
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+.detail-wrapper{
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.formation img{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+/*PAGE*/
+.default-margin {
+    margin: 50px;
+}
+.page-title{
+    padding:     100px 0;
+    text-transform: uppercase;
+}
+.widget-icon{
+
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    border-radius: 60pc;
+    margin-bottom: 15px;
+    color: #005a99;
+    font-size: 23px;
+    line-height: 50px;
+}
+.banner{
+
+-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+background-size: cover; /* version standardisée */position: relative; height: 500px
+}
+.layer {
+    background-color:rgba(19, 45, 168, 0.45);
+    /*background-image: linear-gradient(
+            rgba(255, 255, 255, 0.45),
+            rgba(19, 45, 168, 0.45)
+    );*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#head_menu,#header_profil{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#menu_right_toggle img,#menu_right_toggle_1 img{
+    width: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#menu_right_toggle_1{
+    position: absolute;
+    right: 19px;
+    top: 12px;
+}
+
+#page_title h1{
+    margin: 0;
+    font-size: 18px;
+    padding: 20px;
+    font-weight:normal;
+}
+
+#right_menu{
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: -330px;
+    z-index: 10;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition:right .3s;
+
+    /*transform: translate3d(350px,0,0);
+    transition: transform .5s cubic-bezier(.22,.99,.62,1) 0s;*/
+}
+
+#right_menu.open{
+    /* transform: translate3d(0,0,0);*/
+    right: 0;
+    transition: right .3s;
+}
+
+#right_menu_head{
+    padding: 30px 30px;
+}
+
+#right_menu_head h3{
+    font-size: 15px;
+}
+
+#right_menu ul{
+    padding: 0 30px;
+    float: none;
+}
+
+#right_menu li{
+    float: none;
+    border-bottom:1px solid #f1f2ee;
+    display: block;
+}
+#right_menu li a{
+    color:#b1b0af;
+    padding: 10px 0;
+}
+
+#right_menu .current_page_item a,#right_menu .current-menu-item a{
+    color:#01a7e6 !important;
+}
+
+#logout_b_btn{
+    margin-top: 30px;
+    background: #DE2222 !important;
+}
+
+#close_right_menu{
+    width: 40px;
+    height: 40px;
+    background: #123;
+    display: block;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 36px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    cursor: pointer;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: #BABBC1;
+}
+.current_page_item a {
+    border-bottom: 4px solid #fff;
+    color: #fff !important;
+}
+.uppercase{
+    text-transform: uppercase;
+
+}
+.uppercase a{
+    color: #0b0b0b;
+}
+
+
+
+.nav > li > a:hover, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #FFF;
+}
+.loop-btn-margin{
+    margin: 10px !important;
+}
